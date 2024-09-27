@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f5f5f5">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Wisata Jepang"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/img1"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Lokasi dan Tanggal -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lokasi : Tokyo, Jepang\nTanggal : 20 September 2024"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jakarta - Bagi kamu yang memiliki rencana liburan ke luar negeri, Jepang bisa masuk list pertama sebagai negara di Asia yang wajib dikunjungi. Pasalnya negara dengan julukan Negeri Sakura ini menghadirkan beragam objek pariwisata dan budaya yang mampu membuat para wisatawan kagum."
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginBottom="16dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jepang turut masuk sebagai negara yang dirindukan oleh para wisatawan luar negeri. Berdasarkan survei Japan National Tourism Organization, wisatawan dari berbagai negara, termasuk Australia dan Amerika Serikat, akan mengunjungi Jepang setelah pandemi berakhir."
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginBottom="16dp" />
+
+</LinearLayout>
